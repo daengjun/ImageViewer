@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:contentDescription="hf_no_number"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.peng.plant.deangjun.view.imageView">
+
+
+    <Button
+        android:gravity="center"
+        android:layout_marginStart="630dp"
+        android:id="@+id/zoomlevel_1btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circle_border"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#483D8B"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/zoomlevel_2btn"
+        android:layout_toRightOf="@+id/zoomlevel_1btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/circle_border"
+        android:textSize="15dp"
+        android:textColor="#483D8B"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/zoomlevel_3btn"
+        android:layout_toRightOf="@+id/zoomlevel_2btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/circle_border"
+        android:textSize="15dp"
+        android:textColor="#483D8B"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/zoomlevel_4btn"
+        android:layout_toRightOf="@+id/zoomlevel_3btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circle_border"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#483D8B"
+        android:text="4"/>
+    <Button
+        android:id="@+id/zoomlevel_5btn"
+        android:layout_toRightOf="@+id/zoomlevel_4btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circle_border"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="5dp"
+        android:textColor="#483D8B"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/display_lock_img"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:background="@drawable/screen_lock_icon" />
+
+    <TextView
+        android:id="@+id/display_stop"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/display_move_off"/>
+
+    <TextView
+        android:id="@+id/display_move"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/display_move_on"/>
+
+
+    <TextView
+        android:id="@+id/zoomlevel_voice1"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/zoomlevel_1"/>
+    <TextView
+        android:id="@+id/zoomlevel_voice2"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/zoomlevel_2"/>
+    <TextView
+        android:id="@+id/zoomlevel_voice3"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/zoomlevel_3"/>
+    <TextView
+        android:id="@+id/zoomlevel_voice4"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/zoomlevel_4"/>
+    <TextView
+        android:id="@+id/zoomlevel_voice5"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/zoomlevel_5"/>
+
+
+    <TextView
+        android:id="@+id/next_img"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/next_position"/>
+
+    <TextView
+        android:id="@+id/before_img"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:text="@string/before_position"/>
+
+</RelativeLayout>
+

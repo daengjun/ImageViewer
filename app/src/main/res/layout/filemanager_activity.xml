@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:contentDescription="hf_no_number"
+    tools:context="com.peng.plant.deangjun.activity.FileManager">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            android:background="#87CEEB"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daengjun Gallary"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/file_read"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_box_item"
+                android:drawableTop="@drawable/fileread_icon_item"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/read_files"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/view_exit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round_box_item"
+                android:drawableTop="@drawable/exit_icon_item"
+                android:padding="10dp"
+                android:text="@string/viewer_exit"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/file_read_open"
+        layout="@layout/selection_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/url_read_open"
+        layout="@layout/url_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>
+

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WATTVIEWER</string>
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
+    <string name="folderName">Folder Name</string>
+    <string name="appName">이미지 갤러리</string>
+    <string name="empty">No Images on this device</string>
+    <string name="photos_name">Photos</string>
+    <string name="imageviewer">이미지 뷰어</string>
+    <string name="urlImageViewer">URL 이미지 뷰어</string>
+    <string name="pdfViewer">PDF 뷰어</string>
+    <string name="zoomlevel_1">줌레벨 1</string>
+    <string name="zoomlevel_2">줌레벨 2</string>
+    <string name="zoomlevel_3">줌레벨 3</string>
+    <string name="zoomlevel_4">줌레벨 4</string>
+    <string name="zoomlevel_5">줌레벨 5</string>
+    <string name="display_move_on">화면 고정 해제</string>
+    <string name="display_move_off">화면 고정</string>
+    <string name="url_open">이미지 열기</string>
+    <string name="url_preview">미리보기</string>
+    <string name="choice">선택</string>
+    <string name="next_position">다음 이미지</string>
+    <string name="before_position">이전 이미지</string>
+    <string name="read_files">파일 읽기</string>
+    <string name="viewer_exit">종료 하기</string>
+
+
+</resources>
