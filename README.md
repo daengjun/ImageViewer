@@ -4,15 +4,13 @@
 # 기능 구성
 **1.초기 홈 화면 (두개의 버튼으로 구성)**  
 
-![SDASDASDAS](https://user-images.githubusercontent.com/98893006/183958920-3d84e62f-af7e-45d2-8dc6-27dfa42492d8.png)  
+![와트뷰어 진입화면](https://user-images.githubusercontent.com/98893006/184092620-f3ba122e-5a00-42c0-aff4-2ab89b01446a.png)
 
 ----------
 
-**2. 화면 이동**   
+**2. 메뉴 선택 화면 (세개의 버튼으로 구성)**   
 
-![오른쪽으로 이동](https://user-images.githubusercontent.com/98893006/183954706-f7c29e9f-0260-4d7f-b7f6-dabe57c3c3be.png)  
-
-![왼쪽으로이동](https://user-images.githubusercontent.com/98893006/183954716-f3327706-4b02-4a7b-b1ca-92ef48c1479d.png)  
+![와트뷰어 메뉴 화면](https://user-images.githubusercontent.com/98893006/184093448-8b3093ee-4356-4860-b28c-89d4660e1498.png)
 
 ----------
   
