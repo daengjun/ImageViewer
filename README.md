@@ -14,12 +14,10 @@
 
 ----------
   
-**3. 반경 기능**  
+**3. 이미지뷰어 폴더 목록 탐색**  
 
-![반경 300미터](https://user-images.githubusercontent.com/98893006/183955247-5513365c-252b-4da3-b7f8-2f2362b2120f.png)  
+![이미지 뷰어 폴더 목록 2](https://user-images.githubusercontent.com/98893006/184093693-0a6f7465-b645-4cea-92ce-e1d4775c53d8.png)
 
-![반경 500미터](https://user-images.githubusercontent.com/98893006/183955265-284c2166-1f5c-4089-9686-5b32cd57c280.png)
-  
 -----------
 
 **4. 줌 레벨 기능**  
@@ -28,7 +26,7 @@
   
 -----------
 
-**5. 실시간 내위치 표시**    
+**5. **    
 
 ![반경 해제 2](https://user-images.githubusercontent.com/98893006/183956512-21f575ca-96e7-4f72-b2e6-d0bd3139cbc6.png)
 
