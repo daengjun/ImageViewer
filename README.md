@@ -21,10 +21,10 @@
 
 **URL이미지 보기**    
 
-![url이미지](https://user-images.githubusercontent.com/98893006/184094168-bf8119b2-6716-4882-b71a-716636e50945.png)
-  
-![url 이미지 미리보기](https://user-images.githubusercontent.com/98893006/184094189-2e7d2a52-259c-4911-8fc8-f5b7490faea9.png)
-  
+![184094168-bf8119b2-6716-4882-b71a-716636e50945](https://github.com/daengjun/ImageViewer/assets/98893006/f7d69c23-c67d-45bd-92cf-8deebb107be5)  
+
+![184094189-2e7d2a52-259c-4911-8fc8-f5b7490faea9](https://github.com/daengjun/ImageViewer/assets/98893006/ddc0a6ba-9186-4a6c-80d4-c0afa216d47b)  
+
 ![url이미지 열기](https://user-images.githubusercontent.com/98893006/184094275-21436b36-cfc1-4190-8a86-aadec3bf3d7a.png)
 
 
